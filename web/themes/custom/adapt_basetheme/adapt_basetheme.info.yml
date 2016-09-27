@@ -1,0 +1,11 @@
+name: adapt_basetheme
+type: theme
+description: adapt base theme
+package: adapt
+core: 8.x
+libraries:
+  - adapt_basetheme/global-styling
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
