@@ -17,6 +17,15 @@
         "commerce_base": {
             "type": "vcs",
             "url": "https://github.com/drupalcommerce/commerce_base"
+        },
+        "commerce_checkout_panes": {
+            "type": "vcs",
+            "url": "https://github.com/jespermb/commerce_checkout_panes.git",
+            "branch": "8.x-2.x"
+        },
+        "commerce_config": {
+            "type": "vcs",
+            "url": "https://github.com/jespermb/commerce_config.git"
         }
     },
     "config": {
@@ -31,7 +40,8 @@
         "drupal/console": "~1.0",
         "drupal/commerce": "2.x-dev",
         "drupalcommerce/commerce_base": "dev-8.x-1.x",
-        "drupal/paragraphs": "*"
+        "drupal/paragraphs": "*",
+        "drupal/devel": "1.x-dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",
