@@ -14,14 +14,22 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
+        "commerce_checkout_panes": {
+            "type": "package",
+            "package": {
+                "name": "drupal/commerce_checkout_panes",
+                "type": "drupal-module",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/jespermb/commerce_checkout_panes",
+                    "reference": "master"
+                }
+            }
+        },
         "commerce_base": {
             "type": "vcs",
             "url": "https://github.com/drupalcommerce/commerce_base"
-        },
-        "commerce_checkout_panes": {
-            "type": "vcs",
-            "url": "https://github.com/jespermb/commerce_checkout_panes",
-            "branch": "8.x-2.x"
         },
         "commerce_config": {
             "type": "vcs",
