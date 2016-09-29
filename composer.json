@@ -20,12 +20,12 @@
         },
         "commerce_checkout_panes": {
             "type": "vcs",
-            "url": "https://github.com/jespermb/commerce_checkout_panes.git",
+            "url": "https://github.com/jespermb/commerce_checkout_panes",
             "branch": "8.x-2.x"
         },
         "commerce_config": {
             "type": "vcs",
-            "url": "https://github.com/jespermb/commerce_config.git"
+            "url": "https://github.com/jespermb/commerce_config"
         }
     },
     "config": {
